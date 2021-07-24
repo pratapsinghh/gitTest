@@ -1,0 +1,336 @@
+        
+          body
+          {
+               background-color:rgb(218,236,184);
+               
+          }
+             .navbar
+             {
+                 width: 43rem;
+    height: 6rem;
+    padding: -0.9rem 10rem;
+             }
+             .content
+             {
+                 margin-top: -34rem;
+    margin-right: 50rem;
+    margin-left:25rem;
+    width: 19rem;
+    height: 51px;
+    float: right;
+    padding:2rem;
+             }
+             .content p
+             {
+                 font-size:1rem;
+             }
+               webkit-any(article, aside, nav, section) h1 {
+                            font-size: 1.5em;
+                            margin-top:.3rem;
+               }
+               .navbar h1 {
+                             margin-top: 1rem;
+                             margin-left: 2.9rem;
+                             font-size:2rem;
+               }
+               .chart
+               {
+                  float:right;
+                  font-size:2rem;
+                  color:pink;
+                  margin-right:5%;
+                  cursor:pointer;
+                  width:21rem;
+                  height:5rem;
+               }
+                  
+                    .nav_list
+                    {
+                        width: 12rem;
+                    }
+                      .nav_list ul
+                      {
+                        list-style-type: none;
+                        margin-top: 1rem;
+                        margin-left: .3rem;
+                        padding: 1rem 1rem 2rem 1rem;
+                        width: 10rem;
+                        height: 100%;
+                        overflow: auto;
+                        margin-bottom: 10rem;
+                      }
+                      .nav_list ul li a
+                      {
+                          display:block;
+                          width:auto;
+                          padding:1.4rem 1.8rem;
+                          text-decoration: none;
+                          color:gray;
+                      }
+                      .header
+                      {
+                        width: 21rem;
+                        height: 6rem;
+                        font-size: 2rem;
+                        justify-content: center;
+                        align-items: center;
+                        margin-left: 12rem;
+                        margin-top:-36rem;
+                      }
+                      .header p
+                      {
+                          width: 54rem;
+                          height: 17rem;
+                      }
+                    .row
+                    {
+                          width: 40rem;
+    margin-bottom: 0rem;
+    margin-left: 9.9rem;
+    margin-right: 0;
+    margin-top: -0.1rem;
+                       }
+              .row .col{
+                           float: right;
+    padding: 3rem 1rem 1rem;
+    margin: .3rem .4rem;
+               }
+               .row .col img
+               {
+float: right;
+    padding: 3rem 1rem 1rem;
+    margin: 0.3rem 0.7rem;   
+                  padding:.2rem .3rem;
+                  margin:.2rem .3rem;
+                  border-radius:50%;
+               }
+               .img1{
+                          width: 16%;
+    height: 8rem;
+    margin: .2rem 2rem;
+    padding: 1rem 1.2rem 1.3rem 1.3rem;
+    background-color: rgb(255,255,255);
+    border-radius: 10%;
+                    }
+                    .img2{
+                      width: 16%;
+    height: 8rem;
+    margin: .3rem .6rem;
+    padding: 1rem 1.2rem 1.3rem 1.3rem;
+    background-color: rgb(255,255,255);
+    border-radius: 10%;
+                    }
+                    
+                    .img3{
+                      width: 16%;
+    height: 8rem;
+    margin: .3rem .6rem;
+    padding: 1rem 1.2rem 1.3rem 1.3rem;
+    background-color: rgb(255,255,255);
+    border-radius: 10%;
+                    }
+                    .img4
+                    {
+                      width: 16%;
+    height: 8rem;
+    margin: .3rem .6rem;
+    padding: 1rem 1.2rem 1.3rem 1.3rem;
+    background-color: rgb(255,255,255);
+    border-radius: 10%;
+                    }
+                    
+                    .row img
+                    {
+                       width:100%;
+                       height:auto;
+                       border-radius:50%;
+                       background-size:cover;
+                       object-fit:cover;
+                       display:block;
+                    }
+                    .row p
+                    {
+                      text-align:center;
+                      font-family:verdana;
+                      font-size:.8rem;
+                      font-weight:bold;
+                      display:block;
+                    }
+                   .cartBtn {
+        margin-top: 0.6rem;
+    margin-left: 1.3rem;
+    position: relative;
+    outline: none;
+    text-decoration: none;
+    border-radius: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    height: 2rem;
+    width: 6rem;
+    color: white;
+    opacity: 1;
+    background-color: red;
+    border: .06rem solid rgba(0, 0, 0, 0.6);
+    padding: -1rem 1rem -1rem 0rem;
+                            }
+                    #toggle
+                    {
+                        display:none;
+                    }
+                    .toggleArea
+                    {
+                        background-color:none;
+                        margin-top:.4rem;
+                        color:white;
+                        padding:3rem;
+                        display:flex;
+                        justify-content:flex-start;
+                    }
+                    .toggleArea label
+                    {
+                        background-color:white;
+                        height:3.5rem;
+                        width:6rem;
+                        color:black;
+                        display:flex;
+                        cursor:pointer;
+                        justify-content:center;
+                        align-items:center;
+                        flex-direction:column;
+                    }
+                    .toggleArea label span
+                    {
+                        background-color:black;
+                        width:80%;
+                        height:.2rem;
+                        margin:.2rem 0rem;
+                    }
+                    .toggleArea
+                    {
+                        display:none;
+                    }
+                    .Buttom
+                    {
+                        margin-top: 18rem;
+    width: 17rem;
+    height: 6rem;
+    padding: -5rem 0rem 0rem 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4rem;
+                    }
+                         html{
+                             font-size:45%;
+                         }
+                    }
+                    @media screen and (max-width:900px)
+                    {
+                        html
+                        {
+                            font-size:25%;
+                        }
+                        .row .col  
+                         {
+                             width:20%;
+                             padding:1rem 2rem 10rem 1rem;
+                         }
+                         .content
+                         {
+                             margin-top:-30rem;
+                         }   
+                         
+                    }
+                    @media screen and (max-width:480px)
+                    {
+                        html
+                        {
+                            font-size:25%;
+                        }
+                        body
+                        {
+                            margin: 2%;
+    background-color: rgb(218,236,184);
+    width: 80%;
+    height:80vh;
+    margin-right:3%;
+    padding: 2% 3%;
+                        }
+                          .row
+                          {
+                              margin:3%;
+                          }
+                        .row .col
+                         {
+                             margin:2% 2%;
+                             padding:12% 14% 14% 16%;
+                             width:15%;
+                         }
+                         .row .col p
+                         {
+                             font-size:2rem;
+                         }
+                         .navbar h1
+                         {
+                             text-align:center;
+                             margin-left:100%;
+                         }
+                         .toggleArea
+                         {
+                             margin-top: -8rem;
+                             display:flex;
+                         }
+                         .nav_list
+                         {
+                             flex-direction:column;
+                             display:none;
+                         }
+                         #toggle:checked + .nav_list
+                         {
+                             display:flex;
+                         }
+                         .navbar
+                         {
+                            width: 26rem;
+                            height: 6rem;
+                            padding: -0.9rem -6rem;
+                         }
+                         .Buttom
+                         {
+                             margin-top:-60rem;
+                             float:right;
+                             font-size:2rem;
+                             margin-right:.005%;
+                             display:block;
+                         }
+                         .Buttom .cartBtn
+                         {
+                             font-size:1rem;
+                             justify-content:center;
+                         }
+                         .header
+                         {
+                             margin:3rem;
+                         }
+                         .header p
+                         {
+                              margin : 4rem;
+                         }
+                         .content
+                         {
+                             margin-top: 1rem;
+    width: 45rem;
+    margin-left: 25rem;
+    height:25rem;
+    margin-right: 37rem;
+                         }
+                         .content p
+                         {
+                             font-size:4rem;
+                             font-weight:light;
+                             color:gray;
+                         }
+                         
+                    }
